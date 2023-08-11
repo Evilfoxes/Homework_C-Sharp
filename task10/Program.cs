@@ -11,4 +11,4 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int result = number / 10 % 10;
 
-Console.WriteLine($"Second digits {number} - {result}");
+Console.WriteLine($"Second digit {number} - {result}");
