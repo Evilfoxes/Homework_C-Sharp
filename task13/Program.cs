@@ -11,9 +11,9 @@ int number = Convert.ToInt32(Console.ReadLine());
 string NumberText = Convert.ToString(number);
 if (NumberText.Length > 2)
 {
-  Console.WriteLine("третья цифра -> " + NumberText[2]);
+  Console.WriteLine("Third digit: " + NumberText[2]);
 }
 else 
 {
-  Console.WriteLine("-> третьей цифры нет");
+  Console.WriteLine("No third digit!");
 }
