@@ -8,8 +8,24 @@
 int number = new Random().Next(10, 100);
 Console.WriteLine($"Случайное двузначное число 10-99 -> {number}");
 
-int firstDigit = number / 10;
-int lastDigit = number % 10;
+// int firstDigit = number / 10;
+// int secondDigit = number % 10;
 
-if(firstDigit > lastDigit) Console.WriteLine($"Наибольшая цифра числа -> {firstDigit}");
-else Console.WriteLine($"Наибольшая цифра числа -> {lastDigit}");
+// if (firstDigit > secondDigit) Console.WriteLine($"Наибольшая цифра числа -> {firstDigit}");
+// else Console.WriteLine($"Наибольшая цифра числа {secondDigit}");
+
+// int maxDigit = firstDigit > secondDigit ? firstDigit : secondDigit; // тернарный опреатор
+// Console.WriteLine($"Наибольшая цифра числа {maxDigit}");
+
+int maxDigit = MaxDigit(number);
+Console.WriteLine($"Наибольшая цифра числа {maxDigit}");
+
+int MaxDigit(int num)
+{
+    int firstDigit = num / 10;
+    int secondDigit = num % 10;
+    // if (firstDigit > secondDigit) return firstDigit;
+    // return secondDigit;
+    int maxDigit = firstDigit > secondDigit ? firstDigit : secondDigit;
+    return maxDigit;
+}
