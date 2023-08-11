@@ -12,3 +12,14 @@ int firstDigit = number / 100;
 int lastDigit = number % 10;
 int result = firstDigit * 10 + lastDigit;
 Console.WriteLine(result);
+
+int twoNumbers = TwoNumbers(number);
+Console.WriteLine(twoNumbers);
+
+int TwoNumbers(int num)
+{
+    int firstDigit = number / 100;
+    int lastDigit = number % 10;
+    int result = firstDigit * 10 + lastDigit;
+    return result;
+}
