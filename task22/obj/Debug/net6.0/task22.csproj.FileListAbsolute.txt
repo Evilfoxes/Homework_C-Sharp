@@ -1,0 +1,15 @@
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\task22.csproj.AssemblyReference.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\task22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\task22.AssemblyInfoInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\task22.AssemblyInfo.cs
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\task22.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\bin\Debug\net6.0\task22.exe
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\bin\Debug\net6.0\task22.deps.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\bin\Debug\net6.0\task22.runtimeconfig.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\bin\Debug\net6.0\task22.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\bin\Debug\net6.0\task22.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\task22.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\refint\task22.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\task22.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\task22.genruntimeconfig.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task22\obj\Debug\net6.0\ref\task22.dll
