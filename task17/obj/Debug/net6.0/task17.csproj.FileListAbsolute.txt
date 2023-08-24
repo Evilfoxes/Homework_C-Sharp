@@ -1,0 +1,15 @@
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\bin\Debug\net6.0\task17.exe
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\bin\Debug\net6.0\task17.deps.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\bin\Debug\net6.0\task17.runtimeconfig.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\bin\Debug\net6.0\task17.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\bin\Debug\net6.0\task17.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\task17.csproj.AssemblyReference.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\task17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\task17.AssemblyInfoInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\task17.AssemblyInfo.cs
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\task17.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\task17.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\refint\task17.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\task17.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\task17.genruntimeconfig.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task17\obj\Debug\net6.0\ref\task17.dll
