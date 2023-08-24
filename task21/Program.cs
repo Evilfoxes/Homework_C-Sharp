@@ -10,7 +10,7 @@ double Distance(int x1, int y1, int z1, int x2, int y2, int z2)
     int side1 = x1 - x2;
     int side2 = y1 - y2;
     int side3 = z1 - z2;
-    double distance = Math.Sqrt(Math.Pow(side1*side1, 1) + Math.Pow(side2*side2, 1) + Math.Pow(side3*side3, 1));
+    double distance = Math.Sqrt(side1 * side1 + side2 * side2 + side3 * side3);
     return distance;
 }
 
