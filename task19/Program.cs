@@ -17,7 +17,7 @@ void PrintData(string msg) //Метод выводит результат пол
     Console.WriteLine(msg);
 }
 
-string FillDictionary(int num) // Метод заполнения словаря FillDictionary
+string FillDictionary(int number) // Метод заполнения словаря FillDictionary
 {
     string res = null; //Объявляем переменную res и присваиваем ей значение пull
     int count = 10000; // Начальное значение счетчика. Левая граница диапазона всех 5-ти значных чисел
@@ -39,21 +39,21 @@ string FillDictionary(int num) // Метод заполнения словаря
         }
         else
         {
-            string value = "NO, this number is not a palindrome";
+            string value = "NO, this numberber is not a palindrome";
             allPalindr.Add(count, value);
         }
         count = count + 1;
 
     }
 
-    res = allPalindr[num];
+    res = allPalindr[number];
     return res;
 
 }
 
 
 // Объявляем переменную FiveNumberDigit и присваиваем ей значение введенное пользователем (Метод ReadData)
-int FiveNumberDigit = ReadData("Enter a five-digit number: ");
+int FiveNumberDigit = ReadData("Enter a five-digit numberber: ");
 
 // Заполняем словарь данными и скармливаем в функцию значение 
 string answer = FillDictionary(FiveNumberDigit);
