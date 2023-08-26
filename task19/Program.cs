@@ -52,13 +52,13 @@ string FillDictionary(int num) // Метод заполнения словаря
 }
 
 
-// Объявляем переменную FiveNumDig и присваиваем ей значение введенное пользователем (Метод ReadData)
-int FiveNumDig = ReadData("Enter a five-digit number: ");
+// Объявляем переменную FiveNumberDigit и присваиваем ей значение введенное пользователем (Метод ReadData)
+int FiveNumberDigit = ReadData("Enter a five-digit number: ");
 
 // Заполняем словарь данными и скармливаем в функцию значение 
-string answer = FillDictionary(FiveNumDig);
+string answer = FillDictionary(FiveNumberDigit);
 
 
 //Выводим результат по ключу
 
-PrintData("Digit: " + FiveNumDig + " " + answer);
+PrintData("Digit: " + FiveNumberDigit + " " + answer);
