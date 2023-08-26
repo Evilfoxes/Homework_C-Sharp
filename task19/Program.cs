@@ -6,59 +6,41 @@
 // 23432 -> да
 // 12821 -> да
 
-int ReadData(string msg)
+int FiveDigitNumber(string massage)
 {
-    Console.WriteLine(msg);
-    return int.Parse(Console.ReadLine() ?? "0");
+	Console.Write(massage);
+	int number = Convert.ToInt32(Console.ReadLine());
+	return number;
 }
 
-void PrintData(string msg) //Метод выводит результат пользователю
-{
-    Console.WriteLine(msg);
-}
-
-string FillDictionary(int number) // Метод заполнения словаря FillDictionary
-{
-    string res = null; //Объявляем переменную res и присваиваем ей значение пull
-    int count = 10000; // Начальное значение счетчика. Левая граница диапазона всех 5-ти значных чисел
-    Dictionary<int, string> allPalindr = new Dictionary<int, string>(); // Иницилизация пустого словаря с именем allPalindr
-    
-    while (count <= 99999) //Перебор всех 5-ти значных чисел. 99999 - это права граница диапазона всех 5-ти значных чисел
+int Reverse(int number) //метод для переворачивания числа
+{ 
+    int reverse = 0;
+    while (number > 0)
     {
-        // Парсим первые 2 и последние 2 цифры  числа
-        int d1 = count / 10000;
-        int d2 = (count / 1000) % 10;
-        int d3 = (count / 10) % 10;
-        int d4 = count % 10;
-        // Проверяем является ли число палиндромом
-        if ((d1 == d4) && (d2 == d3))
-        {
-            // создаем строковую переменную value и записываем в нее число "d1d2d3d4"
-            string value = "YES, it is palindrome "; // ToString конвертирует из int в string
-            allPalindr.Add(count, value); // добавляем новый эл-т массива allPalindr с ключом - count и значением - value
-        }
-        else
-        {
-            string value = "NO, this numberber is not a palindrome";
-            allPalindr.Add(count, value);
-        }
-        count = count + 1;
-
+        int value = number % 10;
+        reverse = reverse * 10 + value;
+        number = number / 10;
     }
-
-    res = allPalindr[number];
-    return res;
-
+return reverse; // возвращает перевернутое число
 }
 
+bool Palindrome(int number) // метод для определения палиндрома
+{
+    return number == Reverse(number);
+}
 
-// Объявляем переменную FiveNumberDigit и присваиваем ей значение введенное пользователем (Метод ReadData)
-int FiveNumberDigit = ReadData("Enter a five-digit numberber: ");
-
-// Заполняем словарь данными и скармливаем в функцию значение 
-string answer = FillDictionary(FiveNumberDigit);
-
-
-//Выводим результат по ключу
-
-PrintData("Digit: " + FiveNumberDigit + " " + answer);
+int number = FiveDigitNumber("Enter five-digit number: ");
+if (Palindrome(number))
+{
+    Console.WriteLine ($"Yes {number} it is palindrome");
+}
+else
+{
+    Console.WriteLine ($"No {number} this number is not a palindrome");
+}
+if (number < 10000 && number > 99999)
+    {
+        Console.WriteLine("Error, wrong number");
+    }
+        
