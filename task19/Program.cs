@@ -39,7 +39,7 @@ else
 {
     Console.WriteLine ($"No {number} this number is not a palindrome");
 }
-if (number < 10000 && number > 99999)
+if (number <= 10000 && number >= 99999)
     {
         Console.WriteLine("Error, wrong number");
     }

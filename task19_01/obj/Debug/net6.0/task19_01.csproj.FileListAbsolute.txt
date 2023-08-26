@@ -1,0 +1,15 @@
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\bin\Debug\net6.0\task19_01.exe
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\bin\Debug\net6.0\task19_01.deps.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\bin\Debug\net6.0\task19_01.runtimeconfig.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\bin\Debug\net6.0\task19_01.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\bin\Debug\net6.0\task19_01.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\task19_01.csproj.AssemblyReference.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\task19_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\task19_01.AssemblyInfoInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\task19_01.AssemblyInfo.cs
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\task19_01.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\task19_01.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\refint\task19_01.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\task19_01.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\task19_01.genruntimeconfig.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task19_01\obj\Debug\net6.0\ref\task19_01.dll
