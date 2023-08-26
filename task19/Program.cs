@@ -16,11 +16,15 @@ int FiveDigitNumber(string massage)
 int Reverse(int number) //метод для переворачивания числа
 { 
     int reverse = 0;
-    while (number > 0)
+    if (number >= 0 && number <= 99999)
     {
         int value = number % 10;
         reverse = reverse * 10 + value;
         number = number / 10;
+    }
+    else 
+    {
+        Console.WriteLine("Error, wrong number");
     }
 return reverse; // возвращает перевернутое число
 }
@@ -39,8 +43,5 @@ else
 {
     Console.WriteLine ($"No {number} this number is not a palindrome");
 }
-if (number <= 10000 && number >= 99999)
-    {
-        Console.WriteLine("Error, wrong number");
-    }
+
         
