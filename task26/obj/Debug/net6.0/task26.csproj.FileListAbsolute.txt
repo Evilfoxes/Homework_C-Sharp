@@ -1,0 +1,15 @@
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\task26.csproj.AssemblyReference.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\task26.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\task26.AssemblyInfoInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\task26.AssemblyInfo.cs
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\task26.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\bin\Debug\net6.0\task26.exe
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\bin\Debug\net6.0\task26.deps.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\bin\Debug\net6.0\task26.runtimeconfig.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\bin\Debug\net6.0\task26.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\bin\Debug\net6.0\task26.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\task26.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\refint\task26.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\task26.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\task26.genruntimeconfig.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task26\obj\Debug\net6.0\ref\task26.dll
