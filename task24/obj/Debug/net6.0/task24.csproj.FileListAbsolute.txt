@@ -1,0 +1,15 @@
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\bin\Debug\net6.0\task24.exe
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\bin\Debug\net6.0\task24.deps.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\bin\Debug\net6.0\task24.runtimeconfig.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\bin\Debug\net6.0\task24.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\bin\Debug\net6.0\task24.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\task24.csproj.AssemblyReference.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\task24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\task24.AssemblyInfoInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\task24.AssemblyInfo.cs
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\task24.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\task24.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\refint\task24.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\task24.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\task24.genruntimeconfig.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task24\obj\Debug\net6.0\ref\task24.dll
