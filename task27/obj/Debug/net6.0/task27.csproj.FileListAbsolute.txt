@@ -1,0 +1,15 @@
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\task27.csproj.AssemblyReference.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\task27.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\task27.AssemblyInfoInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\task27.AssemblyInfo.cs
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\task27.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\bin\Debug\net6.0\task27.exe
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\bin\Debug\net6.0\task27.deps.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\bin\Debug\net6.0\task27.runtimeconfig.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\bin\Debug\net6.0\task27.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\bin\Debug\net6.0\task27.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\task27.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\refint\task27.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\task27.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\task27.genruntimeconfig.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task27\obj\Debug\net6.0\ref\task27.dll
