@@ -4,7 +4,6 @@
 // 89126 -> 5
 int NumDigits (int num)
 {
-    int sum = 0;
     int count = 0;
     while (num > 0)
     {
