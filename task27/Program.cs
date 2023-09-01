@@ -22,4 +22,4 @@ int SumDigits(int number)
 }
 
 int result = SumDigits(number);
-Console.WriteLine($"{number, 5} -> {result, 3}");
+Console.WriteLine($"Sum digits numbers {number, 5} -> {result, 3}");
