@@ -38,4 +38,4 @@ int[] newarr = CreateArrayRndInt (5, -5, 9);
 PrintArray (newarr);
 Console.Write(" -> ");
 InversionArray(newarr);
-PrintArray(newarr);
+PrintArray(newarr); // Можно использовать PrintArray(InversionArray(newarr));
