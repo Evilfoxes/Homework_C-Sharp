@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DEPO_NEOS\\.nuget\\packages\\": {}
+    "C:\\Users\\Алексей\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DEPO_NEOS\\Homework_C-Sharp\\task38\\task38.csproj",
+      "projectUniqueName": "C:\\Users\\Алексей\\Documents\\Учеба\\Семинар\\Урок №9\\One programm\\task38\\task38.csproj",
       "projectName": "task38",
-      "projectPath": "C:\\Users\\DEPO_NEOS\\Homework_C-Sharp\\task38\\task38.csproj",
-      "packagesPath": "C:\\Users\\DEPO_NEOS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DEPO_NEOS\\Homework_C-Sharp\\task38\\obj\\",
+      "projectPath": "C:\\Users\\Алексей\\Documents\\Учеба\\Семинар\\Урок №9\\One programm\\task38\\task38.csproj",
+      "packagesPath": "C:\\Users\\Алексей\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Алексей\\Documents\\Учеба\\Семинар\\Урок №9\\One programm\\task38\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DEPO_NEOS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Алексей\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }
