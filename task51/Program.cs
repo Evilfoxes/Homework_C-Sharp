@@ -47,7 +47,7 @@ int SumElementsMainDiagonal(int[,] matrix)
     return sum;
 }
 
-int[,] arraySumIndex = CreateMatrixSumIndex(3, 3, 1, 9);
+int[,] arraySumIndex = CreateMatrixSumIndex(3, 4, 1, 9);
 PrintMatrix(arraySumIndex);
 int sumElementsMainDiagonal = SumElementsMainDiagonal(arraySumIndex);
 Console.WriteLine($"Sum diagonal elemens: {sumElementsMainDiagonal}");
