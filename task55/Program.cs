@@ -45,8 +45,14 @@ void ReplaceRowsColumns(int[,] matrix)
         }
     }    
 }
+
 int[,] createMatrixRndInt = CreateMatrixRndInt(3, 3, -100, 100);
 PrintMatrix(createMatrixRndInt);
+if (createMatrixRndInt.GetLength(0) != createMatrixRndInt.GetLength(1))
+{
+    Console.WriteLine("Невозможно заменить строку на столбец!!!");
+    return;
+}
 Console.WriteLine();
 ReplaceRowsColumns(createMatrixRndInt);
 PrintMatrix(createMatrixRndInt);
