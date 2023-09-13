@@ -9,129 +9,61 @@
 // 18 20
 // 15 18
 
-// int InputInt(string output)
-// {
-//     Console.Write(output);
-//     return int.Parse(Console.ReadLine()!);
-// }
-
-// void FillArrayRandomNumbers(int[,] array)
-// {
-//     for (int i = 0; i < array.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < array.GetLength(1); j++)
-//         {
-//             array[i, j] = new Random().Next(1, 4);
-//         }
-//     }
-// }
-
-// void PrintArray(int[,] array)
-// {
-//     for (int i = 0; i < array.GetLength(0); i++)
-//     {
-//         Console.Write("");
-//         for (int j = 0; j < array.GetLength(1); j++)
-//         {
-//             Console.Write($"{array[i, j],3}");
-//         }
-//         Console.Write("");
-//         Console.WriteLine();
-//     }
-// }
-
-// int size = InputInt("размерность матриц: ");
-// int[,] matrixA = new int[size, size];
-// int[,] matrixB = new int[size, size];
-// FillArrayRandomNumbers(matrixA);
-// FillArrayRandomNumbers(matrixB);
-// int[,] matrixC = new int[size, size];
-// for (int i = 0; i < size; i++)
-// {
-//     for (int j = 0; j < size; j++)
-//     {
-//         for (int k = 0; k < size; k++)
-//         {
-//             matrixC[i, j] = matrixC[i, j] + (matrixA[i, k] * matrixB[k, j]);
-//         }
-//     }
-// }
-
-// Console.WriteLine("Матрица - А");
-// PrintArray(matrixA);
-// Console.WriteLine();
-// Console.WriteLine("Матрица - В");
-// PrintArray(matrixB);
-// Console.WriteLine();
-// Console.WriteLine("Произведение матриц А*В");
-// PrintArray(matrixC);
-
-int rows = ReadInt("Введите количество строк: ");
-int columns = ReadInt("Введите количество столбцов: ");
-int[,] array = new int[rows, columns];
-int[,] secondArray = new int[rows, columns];
-int[,] resultArray = new int[rows, columns];
-
-FillArrayRandom(array);
-PrintArray2D(array);
-
-Console.WriteLine();
-
-FillArrayRandom(secondArray);
-PrintArray2D(secondArray);
-
-Console.WriteLine();
-
-if (array.GetLength(0) != secondArray.GetLength(1))
+int[,] GetMatrix(int m, int n) // Создание двумерного массива, заполненного случайными числами
 {
-    Console.WriteLine(" Нельзя перемножить ");
-    return;
-}
-for (int i = 0; i < array.GetLength(0); i++)
-{
-    for (int j = 0; j < secondArray.GetLength(1); j++)
+    int[,] matrix = new int[m, n];
+    Random rnd = new Random();
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        resultArray[i, j] = 0;
-        for (int k = 0; k < array.GetLength(1); k++)
+        for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            resultArray[i, j] += array[i, k] * secondArray[k, j];
+            matrix[i, j] = rnd.Next(2, 6);
         }
     }
+    return matrix;
 }
 
-PrintArray2D(resultArray);
-
-
-
-// Функция ввода
-int ReadInt(string message)
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
-
-// Функция заполнения массива рандомными числами от 1 до 9
-void FillArrayRandom(int[,] array)
+void PrintMatrix(int[,] array) // Печать двумерного массива
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(1, 5);
-        }
-    }
-}
-
-// Функция вывода двумерного массива в терминал 
-void PrintArray2D(int[,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            Console.Write($"{array[i, j]} ");
+            if (j == 0) Console.Write("");
+            if (j < array.GetLength(1) - 1) Console.Write($"{array[i, j],3},");
+            else Console.Write($"{array[i, j],3}");
         }
         Console.WriteLine();
     }
 }
 
+Console.WriteLine("Первая матрица:");
+int [,] firstMatrix = GetMatrix(2, 2);
+PrintMatrix(firstMatrix);
+
+Console.WriteLine();
+Console.WriteLine("Вторая матрица:");
+int [,] secondMatrix = GetMatrix(2, 2);
+PrintMatrix(secondMatrix);
+
+int[,] resultMatrix = new int[2, 2];
+MultiplyMatrix(firstMatrix, secondMatrix, resultMatrix);
+Console.WriteLine();
+Console.WriteLine($"Произведение двух матриц:");
+PrintMatrix(resultMatrix);
+
+void MultiplyMatrix(int[,] firstMatrix, int[,] secondMatrix, int[,] resultMatrix)
+{
+  for (int i = 0; i < resultMatrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < resultMatrix.GetLength(1); j++)
+    {
+      int sum = 0;
+      for (int k = 0; k < firstMatrix.GetLength(1); k++)
+      {
+        sum += firstMatrix[i, k] * secondMatrix[k, j];
+      }
+      resultMatrix[i, j] = sum;
+    }
+  }
+}
