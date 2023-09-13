@@ -9,7 +9,7 @@
 // 18 20
 // 15 18
 
-int[,] GetMatrix(int m, int n) // Создание двумерного массива, заполненного случайными числами
+int[,] CreateRndMatrix(int m, int n) 
 {
     int[,] matrix = new int[m, n];
     Random rnd = new Random();
@@ -30,29 +30,14 @@ void PrintMatrix(int[,] array) // Печать двумерного массив
         for (int j = 0; j < array.GetLength(1); j++)
         {
             if (j == 0) Console.Write("");
-            if (j < array.GetLength(1) - 1) Console.Write($"{array[i, j],3},");
+            if (j < array.GetLength(1) - 1) Console.Write($"{array[i, j],3}");
             else Console.Write($"{array[i, j],3}");
         }
         Console.WriteLine();
     }
 }
 
-Console.WriteLine("Первая матрица:");
-int [,] firstMatrix = GetMatrix(2, 2);
-PrintMatrix(firstMatrix);
-
-Console.WriteLine();
-Console.WriteLine("Вторая матрица:");
-int [,] secondMatrix = GetMatrix(2, 2);
-PrintMatrix(secondMatrix);
-
-int[,] resultMatrix = new int[2, 2];
-MultiplyMatrix(firstMatrix, secondMatrix, resultMatrix);
-Console.WriteLine();
-Console.WriteLine($"Произведение двух матриц:");
-PrintMatrix(resultMatrix);
-
-void MultiplyMatrix(int[,] firstMatrix, int[,] secondMatrix, int[,] resultMatrix)
+void ProdOfTwoMatrix(int[,] firstMatrix, int[,] secondMatrix, int[,] resultMatrix)
 {
   for (int i = 0; i < resultMatrix.GetLength(0); i++)
   {
@@ -67,3 +52,18 @@ void MultiplyMatrix(int[,] firstMatrix, int[,] secondMatrix, int[,] resultMatrix
     }
   }
 }
+
+Console.WriteLine("First matrix:");
+int [,] firstMatrix = CreateRndMatrix(2, 2);
+PrintMatrix(firstMatrix);
+
+Console.WriteLine();
+Console.WriteLine("Second matrix:");
+int [,] secondMatrix = CreateRndMatrix(2, 2);
+PrintMatrix(secondMatrix);
+
+int[,] resultMatrix = new int[2, 2];
+ProdOfTwoMatrix(firstMatrix, secondMatrix, resultMatrix);
+Console.WriteLine();
+Console.WriteLine($"Product of two matrix:");
+PrintMatrix(resultMatrix);
