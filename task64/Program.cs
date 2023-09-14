@@ -4,3 +4,20 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
+Console.Write("Enter natural number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if(number < 1)
+{
+    Console.Write("Input Error!!!");
+    return;
+}
+
+NaturalNumbers(number);
+
+void NaturalNumbers(int num)
+{
+    if (num == 0) return;
+    Console.Write($"{num} ");
+    NaturalNumbers(num - 1);
+}
