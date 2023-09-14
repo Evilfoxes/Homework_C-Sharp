@@ -9,17 +9,17 @@ int numberN = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter natural number N: ");
 int numberM = Convert.ToInt32(Console.ReadLine());
 
-if(numberN < 1)
+if(numberN < 1 || numberM < 1)
 {
     Console.Write("Input Error!!!");
     return;
 }
 
-if(numberM < 1)
-{
-    Console.Write("Input Error!!!");
-    return;
-}
+// if(numberM < 1)
+// {
+//     Console.Write("Input Error!!!");
+//     return;
+// }
 
 NaturalNumbers(numberN, numberM);
 
