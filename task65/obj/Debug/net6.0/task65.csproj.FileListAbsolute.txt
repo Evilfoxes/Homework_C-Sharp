@@ -1,0 +1,15 @@
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\task65.csproj.AssemblyReference.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\task65.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\task65.AssemblyInfoInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\task65.AssemblyInfo.cs
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\task65.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\bin\Debug\net6.0\task65.exe
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\bin\Debug\net6.0\task65.deps.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\bin\Debug\net6.0\task65.runtimeconfig.json
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\bin\Debug\net6.0\task65.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\bin\Debug\net6.0\task65.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\task65.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\refint\task65.dll
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\task65.pdb
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\task65.genruntimeconfig.cache
+C:\Users\Алексей\Documents\Учеба\Семинар\Урок №9\One programm\task65\obj\Debug\net6.0\ref\task65.dll
