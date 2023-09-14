@@ -9,7 +9,7 @@ int numberN = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter natural number N: ");
 int numberM = Convert.ToInt32(Console.ReadLine());
 
-if(numberN < 1 || numberM < 1)
+if (numberN < 1 || numberM < 1)
 {
     Console.Write("Input Error!!!");
     return;
@@ -23,21 +23,17 @@ if(numberN < 1 || numberM < 1)
 
 NaturalNumbers(numberN, numberM);
 
-void NaturalNumbers(int numN,int numM)
+void NaturalNumbers(int numN, int numM)
 {
-    if (numN == numM) 
-    {
-        Console.Write(numM);
-        return;
-    }
-    else if(numN > numM)
+    if (numN > numM)
     {
         Console.Write($"{numN} ");
         NaturalNumbers(numN - 1, numM);
     }
-    else if(numN < numM)
+    else if (numN < numM)
     {
         Console.Write($"{numN} ");
         NaturalNumbers(numN + 1, numM);
     }
+    else Console.Write($"{numN} ");
 }
