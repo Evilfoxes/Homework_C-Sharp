@@ -4,10 +4,10 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-int SumNumbersFromMToN(int namberN, int numberM)
+int SumNumbersFromMToN(int numberN, int numberM)
 {
-    if (namberN > numberM) return 0;
-    return SumNumbersFromMToN(namberN, numberM - 1) + numberM;
+    if (numberN > numberM) return 0;
+    return SumNumbersFromMToN(numberN, numberM - 1) + numberM;
 }
 
 Console.Write("Enter number M: ");
