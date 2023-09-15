@@ -15,5 +15,4 @@ int Akkerman(int m, int n)
     else return (Akkerman(m - 1, Akkerman(m, n - 1)));
 }
 
-int AkkermanFunction = Akkerman(m, n);
 Console.Write($"A(m, n) = {Akkerman(m, n)}");
