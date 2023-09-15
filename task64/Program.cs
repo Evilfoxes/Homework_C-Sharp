@@ -7,17 +7,20 @@
 Console.Write("Enter natural number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if(number < 1)
+if (number < 1)
 {
     Console.Write("Input Error!!!");
     return;
 }
 
+Console.Write($"N = {number} -> ");
 NaturalNumbers(number);
 
 void NaturalNumbers(int num)
 {
-    if (num == 0) return;
-    Console.Write($"{num} ");
-    NaturalNumbers(num - 1);
+    {
+        if (num == 0) return;
+        Console.Write($"{num}, ");
+        NaturalNumbers(num - 1);
+    }
 }
