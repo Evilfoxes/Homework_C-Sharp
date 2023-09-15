@@ -22,4 +22,4 @@ if (numN >= numM)
 else
 {
     Console.WriteLine($"N = {numN}; M = {numM} -> {SumNumbersFromMToN(numN, numM)}.");
-}
+}   
